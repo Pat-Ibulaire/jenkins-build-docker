@@ -14,7 +14,7 @@ node {
     }
 
     stage('Run image') {
-        docker.image('srv-web-ludo').withRun('--name srv-web' ) { c ->
+        docker.image('srv-web-titouan').withRun('--name srv-web' ) { c ->
 
         sh 'docker ps | grep srv-web'
 	}
