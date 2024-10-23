@@ -2,7 +2,7 @@
 node {
 
   
-   def IMAGE="srv-web-ludo"
+   def IMAGE="srv-web-titouan"
    def container_name="srv-web"
 	
     stage('Clone') {
